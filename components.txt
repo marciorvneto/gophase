@@ -1,0 +1,95 @@
+// 
+//  Cp = A + BT + CT^2 + DT^3 + E/T
+// 
+
+name=water         | api=steam_table | CpA = 1     | CpB = 1      | CpC = 1   | CpD = 1      | CpE = 1
+name=black_liquor  | api=default     | CpA = 1     | CpB = 1      | CpC = 1   | CpD = 1      | CpE = 1 | viscA = 1    | viscB = 2
+name=white_liquor  | api=default     | CpA = 1     | CpB = 1      | CpC = 1   | CpD = 1      | CpE = 1 | viscA = 23.3 | viscB = 2.3e-5
+name=red_liquor    | api=default     | CpA = 1     | CpB = 1      | CpC = 1   | CpD = 1      | CpE = 1
+
+// Oil and gas
+
+name=(CH3)3CCH2CH3 | api=cubic       | MM=86.1754  | wacc=0.234   | Tc=489    | Pc=3100000   | Vc=358
+name=Ar            | api=cubic       | MM=39.948   | wacc=0.0000  | Tc=150.86 | Pc=489790    | Vc=74.59
+name=C2H2          | api=cubic       | MM=26.0373  | wacc=0.191   | Tc=308.3  | Pc=6138000   | Vc=112.2
+name=C2H4          | api=cubic       | MM=28.0532  | wacc=0.086   | Tc=282.5  | Pc=5060000   | Vc=131.1
+name=C2H6          | api=cubic       | MM=30.069   | wacc=0.1000  | Tc=305.3  | Pc=4900000   | Vc=147
+name=C2H6O2        | api=cubic       | MM=62.0678  | wacc=0.507   | Tc=720    | Pc=8200000   | Vc=191
+name=C3H4          | api=cubic       | MM=40.0639  | wacc=0.104   | Tc=394    | Pc=5250000   | Vc=165
+name=C3H6          | api=cubic       | MM=42.0797  | wacc=0.141   | Tc=365.2  | Pc=4600000   | Vc=184.6
+name=C3H8          | api=cubic       | MM=44.0956  | wacc=0.152   | Tc=369.9  | Pc=4250000   | Vc=200
+name=C4H6          | api=cubic       | MM=54.0904  | wacc=0.166   | Tc=452    | Pc=4360000   | Vc=220
+name=C4H6          | api=cubic       | MM=54.0904  | wacc=0.193   | Tc=425    | Pc=4320000   | Vc=221
+name=C4H8          | api=cubic       | MM=56.1063  | wacc=0.187   | Tc=419.5  | Pc=4020000   | Vc=240.8
+name=C4H8          | api=cubic       | MM=56.1063  | wacc=0.187   | Tc=419.5  | Pc=4020000   | Vc=240.8
+name=C4H8          | api=cubic       | MM=56.1063  | wacc=0.203   | Tc=435.5  | Pc=4210000   | Vc=233.8
+name=C5H10         | api=cubic       | MM=70.1329  | wacc=0.195   | Tc=511.7  | Pc=4510000   | Vc=259
+name=C5H10         | api=cubic       | MM=70.1329  | wacc=0.2382  | Tc=464.8  | Pc=3560000   | Vc=298.4
+name=C5H12         | api=cubic       | MM=72.1488  | wacc=0.196   | Tc=433.8  | Pc=3200000   | Vc=307
+name=C6H12         | api=cubic       | MM=84.1595  | wacc=0.208   | Tc=554    | Pc=4070000   | Vc=308
+name=C6H12         | api=cubic       | MM=84.1595  | wacc=0.23    | Tc=532.7  | Pc=3790000   | Vc=318
+name=C6H14         | api=cubic       | MM=86.1754  | wacc=0.25    | Tc=500.1  | Pc=3150000   | Vc=361
+name=C6H14         | api=cubic       | MM=86.1754  | wacc=0.274   | Tc=504    | Pc=3110000   | Vc=368
+name=C6H14         | api=cubic       | MM=86.1754  | wacc=0.279   | Tc=497.8  | Pc=3035000   | Vc=368
+name=C6H6          | api=cubic       | MM=78.1118  | wacc=0.21    | Tc=562    | Pc=4890000   | Vc=250
+name=C7H14         | api=cubic       | MM=98.1861  | wacc=0.27    | Tc=569.5  | Pc=3400000   | Vc=375
+name=C7H16         | api=cubic       | MM=98.1861  | wacc=0.236   | Tc=573    | Pc=3480000   | Vc=369
+name=C7H8          | api=cubic       | MM=92.1384  | wacc=0.264   | Tc=593    | Pc=4100000   | Vc=316
+name=C8H10         | api=cubic       | MM=106.165  | wacc=0.304   | Tc=617    | Pc=3640000   | Vc=374
+name=C8H10         | api=cubic       | MM=106.165  | wacc=0.31    | Tc=631    | Pc=3700000   | Vc=370
+name=C8H16         | api=cubic       | MM=112.2126 | wacc=0.246   | Tc=609    | Pc=3040000   | Vc=430
+name=CH4           | api=cubic       | MM=16.043   | wacc=0.012   | Tc=190.6  | Pc=4599000   | Vc=98.6
+name=CH4O          | api=cubic       | MM=32.0419  | wacc=0.564   | Tc=513    | Pc=8100000   | Vc=117
+name=CH4S          | api=cubic       | MM=48.107   | wacc=0.158   | Tc=469.9  | Pc=7230000   | Vc=145
+name=CO            | api=cubic       | MM=28.0101  | wacc=0.066   | Tc=134.45 | Pc=3498750   | Vc=93.1
+name=CO2           | api=cubic       | MM=44.0095  | wacc=0.228   | Tc=304.18 | Pc=7380000   | Vc=91.9
+name=COS           | api=cubic       | MM=60.075   | wacc=0.097   | Tc=378.8  | Pc=6349000   | Vc=135.1
+name=CS2           | api=cubic       | MM=76.141   | wacc=0.1107  | Tc=552    | Pc=7900000   | Vc=160
+name=H2            | api=cubic       | MM=2.01588  | wacc=-0.215  | Tc=33.18  | Pc=1300000   | Vc=64.15
+name=H2O           | api=cubic       | MM=18.0153  | wacc=0.3449  | Tc=647    | Pc=22064000  | Vc=55.95
+name=H2S           | api=cubic       | MM=34.081   | wacc=0.0942  | Tc=373.3  | Pc=8970000   | Vc=98.5
+name=HCN           | api=cubic       | MM=27.0253  | wacc=0.41    | Tc=456.65 | Pc=5390000   | Vc=139
+name=He            | api=cubic       | MM=4.002602 | wacc=-0.3900 | Tc=5.2    | Pc=227400    | Vc=57.3
+name=Hg            | api=cubic       | MM=200.59   | wacc=-0.1644 | Tc=1735   | Pc=160800000 | Vc=35
+name=N2            | api=cubic       | MM=28.0134  | wacc=0.0377  | Tc=126.19 | Pc=3397800   | Vc=89.21
+name=NH3           | api=cubic       | MM=17.0305  | wacc=0.2526  | Tc=405.4  | Pc=11300000  | Vc=72.47
+name=NO2           | api=cubic       | MM=46.0055  | wacc=0.8511  | Tc=431.15 | Pc=10133000  | Vc=82.49
+name=Ne            | api=cubic       | MM=20.1797  | wacc=-0.0395 | Tc=44.4   | Pc=2653000   | Vc=41.7
+name=O2            | api=cubic       | MM=31.9988  | wacc=0.0222  | Tc=154.58 | Pc=5043000   | Vc=73.4
+name=S             | api=cubic       | MM=32.065   | wacc=0.2463  | Tc=1313   | Pc=18208100  | Vc=158
+name=SO2           | api=cubic       | MM=64.064   | wacc=0.2453  | Tc=430.34 | Pc=7884000   | Vc=122
+name=iC10H22       | api=cubic       | MM=142.2817 | wacc=0.472   | Tc=610.7  | Pc=2120000   | Vc=583
+name=iC11H24       | api=cubic       | MM=156.3083 | wacc=0.5070  | Tc=629.9  | Pc=1948000   | Vc=645.5
+name=iC12H26       | api=cubic       | MM=170.3348 | wacc=0.375   | Tc=629.3  | Pc=1852000   | Vc=679.5
+name=iC13H28       | api=cubic       | MM=200.3608 | wacc=0.7120  | Tc=734    | Pc=1935000   | Vc=749
+name=iC15H12       | api=cubic       | MM=212.4146 | wacc=0.654   | Tc=698.98 | Pc=1424000   | Vc=869.5
+name=iC16H34       | api=cubic       | MM=226.4412 | wacc=0.5480  | Tc=692.4  | Pc=1570000   | Vc=969.2
+name=iC17H36       | api=cubic       | MM=240.4677 | wacc=0.708   | Tc=726.23 | Pc=1238000   | Vc=1028.9
+name=iC18H38       | api=cubic       | MM=254.4943 | wacc=0.7270  | Tc=739.33 | Pc=1159000   | Vc=1088.6
+name=iC19H40       | api=cubic       | MM=268.5209 | wacc=0.741   | Tc=751.64 | Pc=1086000   | Vc=1148.3
+name=iC20H42       | api=cubic       | MM=282.5475 | wacc=0.7480  | Tc=763.21 | Pc=1021000   | Vc=1208
+name=iC4H10        | api=cubic       | MM=58.1222  | wacc=0.184   | Tc=407.7  | Pc=3650000   | Vc=259
+name=iC4H8         | api=cubic       | MM=56.1063  | wacc=0.218   | Tc=417.9  | Pc=4000000   | Vc=238.8
+name=iC5H12        | api=cubic       | MM=72.1488  | wacc=0.228   | Tc=461    | Pc=3380000   | Vc=306
+name=iC6H14        | api=cubic       | MM=86.1754  | wacc=0.279   | Tc=497.8  | Pc=3035000   | Vc=368
+name=iC7H16        | api=cubic       | MM=100.2019 | wacc=0.328   | Tc=530.5  | Pc=2740000   | Vc=421
+name=iC8H18        | api=cubic       | MM=114.2285 | wacc=0.303   | Tc=543.9  | Pc=2570000   | Vc=468
+name=iC9H20        | api=cubic       | MM=128.2551 | wacc=0.458   | Tc=582.8  | Pc=2310000   | Vc=541
+name=nC10H22       | api=cubic       | MM=142.2817 | wacc=0.492   | Tc=617.8  | Pc=2110000   | Vc=624
+name=nC11H24       | api=cubic       | MM=156.3083 | wacc=0.53    | Tc=639    | Pc=1980000   | Vc=689
+name=nC12H26       | api=cubic       | MM=170.3348 | wacc=0.5760  | Tc=658.2  | Pc=1800000   | Vc=754
+name=nC13H28       | api=cubic       | MM=184.3614 | wacc=0.617   | Tc=676    | Pc=1700000   | Vc=823
+name=nC14H30       | api=cubic       | MM=198.388  | wacc=0.643   | Tc=693    | Pc=1600000   | Vc=894
+name=nC15H32       | api=cubic       | MM=212.4146 | wacc=0.6860  | Tc=708    | Pc=1500000   | Vc=966
+name=nC16H34       | api=cubic       | MM=226.4412 | wacc=0.717   | Tc=722    | Pc=1400000   | Vc=1034
+name=nC17H36       | api=cubic       | MM=240.4677 | wacc=0.77    | Tc=734    | Pc=1300000   | Vc=1103
+name=nC18H38       | api=cubic       | MM=254.4943 | wacc=0.8110  | Tc=747    | Pc=1300000   | Vc=1189
+name=nC19H40       | api=cubic       | MM=268.5209 | wacc=0.852   | Tc=755    | Pc=1200000   | Vc=1148.3
+name=nC20H42       | api=cubic       | MM=282.5475 | wacc=0.907   | Tc=768    | Pc=1100000   | Vc=1208
+name=nC4H10        | api=cubic       | MM=58.1222  | wacc=0.2000  | Tc=425    | Pc=3800000   | Vc=255
+name=nC5H12        | api=cubic       | MM=72.1488  | wacc=0.252   | Tc=469.8  | Pc=3360000   | Vc=311
+name=nC6H14        | api=cubic       | MM=86.1754  | wacc=0.301   | Tc=507.6  | Pc=3020000   | Vc=368
+name=nC7H16        | api=cubic       | MM=100.2019 | wacc=0.35    | Tc=540    | Pc=2740000   | Vc=428
+name=nC8H18        | api=cubic       | MM=114.2285 | wacc=0.4000  | Tc=568.9  | Pc=2490000   | Vc=492
+name=nC9H20        | api=cubic       | MM=128.2551 | wacc=0.4440  | Tc=595    | Pc=2300000   | Vc=555
+name=tC4H8         | api=cubic       | MM=56.1063  | wacc=0.218   | Tc=428.6  | Pc=4100000   | Vc=237.7
